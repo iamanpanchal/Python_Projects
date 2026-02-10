@@ -38,10 +38,3 @@ while True:
         break
     else:
         print("Invalid syntax!")
-
-
-
-
-# "r": ("Rock", "🪨"),
-# "p": ("Paper", "📄"),
-# "s": ("Scissors", "✂️")
