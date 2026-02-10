@@ -11,6 +11,7 @@ while True:
     player = input("Rock, Paper or Scissor? (r/p/s) : ").lower()
     if player not in choices:
         print("Invalid choice!")
+        continue
     computer_choice = random.choice(choices)
     if (player == 'r'):
         print("🪨")
